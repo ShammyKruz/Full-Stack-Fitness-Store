@@ -1,5 +1,4 @@
-import { Product } from "../../frontend/src/types/Product";
-import App from '../../frontend/src/App';
+import { Product } from "./types/Product";
 
 export const sampleProducts:Product[] = [
     {
