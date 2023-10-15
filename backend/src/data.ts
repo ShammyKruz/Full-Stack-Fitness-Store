@@ -2,8 +2,8 @@ import { Product } from "./types/Product";
 
 export const sampleProducts:Product[] = [
     {
-        name: 'Treadmill Machine',
-        slug: 'Treadmill Machine',
+        name: 'Treadmill-Machine',
+        slug: 'Treadmill-Machine',
         category: 'Fitness',
         image: '../images/treadmill.jpg',
         price: 120,
@@ -14,8 +14,8 @@ export const sampleProducts:Product[] = [
         description: 'High quality treadmill invention'
     },
     {
-        name: 'Adjustable Dumbells',
-        slug: 'Adjustable Dumbells',
+        name: 'Adjustable-Dumbells',
+        slug: 'Adjustable-Dumbells',
         category: 'Gym',
         image: '../images/treadmill.jpg',
         price: 120,
@@ -26,8 +26,8 @@ export const sampleProducts:Product[] = [
         description: 'High quality dumbell inventions'
     },
     {
-        name: 'Treadmill Machine',
-        slug: 'Treadmill Machine',
+        name: 'Chest-Expander',
+        slug: 'Chest-Expander',
         category: 'Fitness',
         image: '../images/treadmill.jpg',
         price: 120,
@@ -38,8 +38,8 @@ export const sampleProducts:Product[] = [
         description: 'High quality treadmill invention'
     },
     {
-        name: 'Treadmill Machine',
-        slug: 'Treadmill Machine',
+        name: 'Sit-up-bench',
+        slug: 'Sit-up-bench',
         category: 'Fitness',
         image: '../images/treadmill.jpg',
         price: 120,
@@ -50,8 +50,8 @@ export const sampleProducts:Product[] = [
         description: 'High quality treadmill invention'
     },
     {
-        name: 'Treadmill Machine',
-        slug: 'Treadmill Machine',
+        name: 'Sit-up',
+        slug: 'Sit-up',
         category: 'Fitness',
         image: '../images/treadmill.jpg',
         price: 120,
@@ -62,8 +62,8 @@ export const sampleProducts:Product[] = [
         description: 'High quality treadmill invention'
     },
     {
-        name: 'Treadmill Machine',
-        slug: 'Treadmill Machine',
+        name: 'Spinning-bike',
+        slug: 'Spinning-bike',
         category: 'Fitness',
         image: '../images/treadmill.jpg',
         price: 120,
