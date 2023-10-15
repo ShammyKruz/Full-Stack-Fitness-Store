@@ -6,6 +6,7 @@ import { Store } from '../Store'
 import { useContext } from 'react'
 import { CartItem } from '../types/Cart'
 import { convertProductToCartItem } from '../utils'
+import { toast } from 'react-toastify'
 
 function ProductItem({ product }: { product: Product }) {
   const { state, dispatch } = useContext(Store)
@@ -24,7 +25,7 @@ function ProductItem({ product }: { product: Product }) {
       type: 'CART_ADD_ITEM',
       payload: { ...item, quantity },
     })
-    //toast.success('Product added to the cart')
+    toast.success('Product added to the cart')
   }
 
     return (
