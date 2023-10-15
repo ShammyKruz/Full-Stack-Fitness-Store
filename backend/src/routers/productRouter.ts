@@ -1,4 +1,4 @@
-import express/*, { Request, Response }*/ from 'express'
+import express, { Request, Response } from 'express'
 import asyncHandler from 'express-async-handler'
 import { ProductModel } from '../models/productModel'
 
@@ -12,13 +12,13 @@ productRouter.get(
   })
 )
 
-/*productRouter.get(
+productRouter.get(
   '/categories',
   asyncHandler(async (req: Request, res: Response) => {
     const categories = await ProductModel.find().distinct('category')
     res.json(categories)
   })
-)*/
+)
 
 // /api/slug/product
 productRouter.get(
