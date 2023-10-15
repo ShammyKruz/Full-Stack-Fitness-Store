@@ -1,6 +1,7 @@
 import { useContext, useEffect } from 'react';
 import {  Badge, Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, Outlet } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Store } from './Store';
@@ -21,9 +22,11 @@ function App() {
         <header>
           <Navbar expand="lg">
             <Container>
+              <LinkContainer to="/">
               <Navbar.Brand>
                 MMP-Store
               </Navbar.Brand>
+              </LinkContainer>
             </Container>
             <Nav>
               <Button variant={mode} onClick={switchModeHandler}>
