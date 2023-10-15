@@ -33,9 +33,9 @@ export default function CartPage() {
         navigate('/signin?redirect=/shipping')
       }
 
-      /*const removeItemHandler = (item: CartItem) => {
+      const removeItemHandler = (item: CartItem) => {
         dispatch({ type: 'CART_REMOVE_ITEM', payload: item })
-      }*/
+      }
     
     return (
         <div>
@@ -47,7 +47,7 @@ export default function CartPage() {
                 <Col md={8}>
                 {cartItems.length === 0 ? (
             <MessageBox>
-              Your Cart Is Feeling Lonely😢. <Link to="/">Go Shopping😉</Link>
+              Your Cart Is Feeling Lonely😢. <Link to="/">Let's Go Shopping😉</Link>
             </MessageBox>
           ) : (
             <ListGroup>
@@ -86,7 +86,7 @@ export default function CartPage() {
                     <Col md={3}>${item.price}</Col>
                     <Col md={2}>
                       <Button
-                        //onClick={() => removeItemHandler(item)}
+                        onClick={() => removeItemHandler(item)}
                         variant={mode}
                       >
                         <i className="fas fa-trash"></i>
